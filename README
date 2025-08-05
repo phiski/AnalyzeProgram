@@ -1,0 +1,20 @@
+Dieses Programm enthält alle, für die Bachelorarbeit implementierten, Algorithmen aus "Experimental analysis of heuristic algorithms for the dominating set problem" von Laura A. Sanchis und "Solving the k-center problem efficiently with a dominating set algorithm" von Borut Robič und Jurij Mihelič. 
+Mit der For-Schleife in Zeile 18 kann festgelegt werden, wie oft das Programm für den vorgegebenen Graphen eine Lösung berechnen soll, um hinterher den Durchschnitt zu berechnen. 
+Mit dem FileReader fr in Zeile 24 kann der Graph festgelegt werden, dieser muss in resources sein.
+In Zeile 64 kann festgelegt werden, welcher Algorithmus ausgewählt werden soll:
+1. Varianten von Greedy
+  Greedy_Arrays.Greedy
+  Greedy_Vector.Greedy
+2. Varianten von Greedy_Ran
+  Greedy_Ran_Arrays.Greedy_Ran
+  Greedy_Ran_Vector.Greedy_Ran
+3. Varianten von Greedy_Vote
+  Greedy_Vote_Arrays.Greedy_Vote
+  Greedy_Vote_Vector.Greedy_Vote
+4. Varianten von Greedy_Rev
+  Greedy_Rev_Arrays.Greedy_Rev
+  Greedy_Rev_Vector.Greedy_Rev
+5. Heuristic Algorithm
+  HeuristicDSAlgorithm.HeuristicDSAlgorithm
+Die Datei SolNRtGraph.sol, wobei t durch die Anzahl der Schleifendurchläufe festgelegt wird, enthält die einzelnen Lösungen für jeden Durchgang.
+Die Datei GraphSolution.txt enthält das durchschnittliche Dominating Set, die durchschnittliche, zur Berechnung benötigte, Laufzeit, das kleineste Dominating Set über alle Durchgänge und die kürzeste Laufzeit über alle Durchgänge.
